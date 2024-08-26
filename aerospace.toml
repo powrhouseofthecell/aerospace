@@ -79,64 +79,64 @@ outer.right =      8
 
 # All possible commands: https://nikitabobko.github.io/AeroSpace/commands
 
-# You can uncomment this line to open up terminal with alt + enter shortcut
+# Uncomment this line to open up terminal with cmd + enter shortcut
 # See: https://nikitabobko.github.io/AeroSpace/commands#exec-and-forget
-# alt-enter = 'exec-and-forget open -n /System/Applications/Utilities/Terminal.app'
+# cmd-enter = 'exec-and-forget open -n /System/Applications/Utilities/Terminal.app'
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#layout
-alt-slash = 'layout tiles horizontal vertical'
-alt-comma = 'layout accordion horizontal vertical'
+cmd-slash = 'layout tiles horizontal vertical'
+cmd-comma = 'layout accordion horizontal vertical'
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#focus
-alt-h = 'focus left'
-alt-j = 'focus down'
-alt-k = 'focus up'
-alt-l = 'focus right'
+cmd-h = 'focus left'
+cmd-j = 'focus down'
+cmd-k = 'focus up'
+cmd-l = 'focus right'
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#move
-alt-shift-h = 'move left'
-alt-shift-j = 'move down'
-alt-shift-k = 'move up'
-alt-shift-l = 'move right'
+cmd-shift-h = 'move left'
+cmd-shift-j = 'move down'
+cmd-shift-k = 'move up'
+cmd-shift-l = 'move right'
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#resize
-alt-shift-minus = 'resize smart -50'
-alt-shift-equal = 'resize smart +50'
+cmd-shift-minus = 'resize smart -50'
+cmd-shift-equal = 'resize smart +50'
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#workspace
-alt-1 = 'workspace 1' # Office
-alt-2 = 'workspace 2' # VSCode
-alt-7 = 'workspace 7' # Notes
-alt-8 = 'workspace 8' # Arc
-alt-9 = 'workspace 9' # Browser
-alt-0 = 'workspace 0' # Terminal
-alt-a = 'workspace A'
-alt-b = 'workspace B'
-alt-c = 'workspace C'
-alt-d = 'workspace D'
-alt-z = 'workspace Z'
+cmd-1 = 'workspace 1' # Office
+cmd-2 = 'workspace 2' # VSCode
+cmd-7 = 'workspace 7' # Notes
+cmd-8 = 'workspace 8' # Arc
+cmd-9 = 'workspace 9' # Browser
+cmd-0 = 'workspace 0' # Terminal
+cmd-a = 'workspace A'
+cmd-b = 'workspace B'
+cmd-c = 'workspace C'
+cmd-d = 'workspace D'
+cmd-z = 'workspace Z'
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#move-node-to-workspace
-alt-shift-1 = 'move-node-to-workspace 1' # Office
-alt-shift-2 = 'move-node-to-workspace 2' # VSCode
-alt-shift-7 = 'move-node-to-workspace 7' # Notes
-alt-shift-8 = 'move-node-to-workspace 8' # Arc
-alt-shift-9 = 'move-node-to-workspace 9' # Browser
-alt-shift-0 = 'move-node-to-workspace 0' # Terminal
-alt-shift-a = 'move-node-to-workspace A'
-alt-shift-b = 'move-node-to-workspace B'
-alt-shift-c = 'move-node-to-workspace C'
-alt-shift-d = 'move-node-to-workspace D'
-alt-shift-z = 'move-node-to-workspace Z'
-alt-shift-f = 'fullscreen'
+cmd-shift-1 = 'move-node-to-workspace 1' # Office
+cmd-shift-2 = 'move-node-to-workspace 2' # VSCode
+cmd-shift-7 = 'move-node-to-workspace 7' # Notes
+cmd-shift-8 = 'move-node-to-workspace 8' # Arc
+cmd-shift-9 = 'move-node-to-workspace 9' # Browser
+cmd-shift-0 = 'move-node-to-workspace 0' # Terminal
+cmd-shift-a = 'move-node-to-workspace A'
+cmd-shift-b = 'move-node-to-workspace B'
+cmd-shift-c = 'move-node-to-workspace C'
+cmd-shift-d = 'move-node-to-workspace D'
+cmd-shift-z = 'move-node-to-workspace Z'
+cmd-shift-f = 'fullscreen'
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#workspace-back-and-forth
-alt-tab = 'workspace-back-and-forth'
+cmd-tab = 'workspace-back-and-forth'
 # See: https://nikitabobko.github.io/AeroSpace/commands#move-workspace-to-monitor
-alt-shift-tab = 'move-workspace-to-monitor --wrap-around next'
+cmd-shift-tab = 'move-workspace-to-monitor --wrap-around next'
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#mode
-alt-shift-semicolon = 'mode service'
+cmd-shift-semicolon = 'mode service'
 
 # 'service' binding mode declaration.
 # See: https://nikitabobko.github.io/AeroSpace/guide#binding-modes
@@ -147,10 +147,10 @@ r = ['flatten-workspace-tree', 'mode main'] # reset layout
 f = ['layout floating tiling', 'mode main'] # Toggle between floating and tiling layout
 backspace = ['close-all-windows-but-current', 'mode main']
 
-alt-shift-h = ['join-with left', 'mode main']
-alt-shift-j = ['join-with down', 'mode main']
-alt-shift-k = ['join-with up', 'mode main']
-alt-shift-l = ['join-with right', 'mode main']
+cmd-shift-h = ['join-with left', 'mode main']
+cmd-shift-j = ['join-with down', 'mode main']
+cmd-shift-k = ['join-with up', 'mode main']
+cmd-shift-l = ['join-with right', 'mode main']
 
 [[on-window-detected]]
 if.app-id = "com.github.wez.wezterm"
