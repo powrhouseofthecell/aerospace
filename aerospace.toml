@@ -153,26 +153,36 @@ alt-shift-k = ['join-with up', 'mode main']
 alt-shift-l = ['join-with right', 'mode main']
 
 [[on-window-detected]]
+if.app-id = "com.github.wez.wezterm"
+run = "move-node-to-workspace 0"
+
+[[on-window-detected]]
 if.app-id = "com.googlecode.iterm2"
 run = "move-node-to-workspace 0"
+
 [[on-window-detected]]
 if.app-id = "com.tinyspeck.slackmacgap"
 run = "move-node-to-workspace 1"
+
 [[on-window-detected]]
 if.app-id = "com.google.Chrome"
 run = "move-node-to-workspace 1"
-[[on-window-detected]]
-if.app-id = "com.brave.Browser"
-run = "move-node-to-workspace 9"
-[[on-window-detected]]
-if.app-id = "md.obsidian"
-run = "move-node-to-workspace 7"
+
 [[on-window-detected]]
 if.app-id = "com.microsoft.VSCode"
 run = "move-node-to-workspace 2"
+
+[[on-window-detected]]
+if.app-id = "md.obsidian"
+run = "move-node-to-workspace 7"
+
 [[on-window-detected]]
 if.app-id = "company.thebrowser.Browser"
 run = "move-node-to-workspace 8"
+
+[[on-window-detected]]
+if.app-id = "com.brave.Browser"
+run = "move-node-to-workspace 9"
 
 # on-focused-monitor-changed = ['move-mouse monitor-lazy-center']
 # on-focus-changed = "move-mouse window-lazy-center"
