@@ -54,10 +54,10 @@ on-focused-monitor-changed = ['move-mouse monitor-lazy-center']
 [gaps]
 inner.horizontal = 8 
 inner.vertical =   8
-outer.left =       8
+outer.left =       0
 outer.bottom =     0
 outer.top =        0
-outer.right =      8
+outer.right =      0
 
 # 'main' binding mode declaration
 # See: https://nikitabobko.github.io/AeroSpace/guide#binding-modes
@@ -106,6 +106,7 @@ alt-shift-equal = 'resize smart +50'
 # See: https://nikitabobko.github.io/AeroSpace/commands#workspace
 alt-1 = 'workspace 1' # Office
 alt-2 = 'workspace 2' # VSCode
+alt-3 = 'workspace 3' # Extra
 alt-7 = 'workspace 7' # Notes
 alt-8 = 'workspace 8' # Arc
 alt-9 = 'workspace 9' # Browser
@@ -119,6 +120,7 @@ alt-z = 'workspace Z'
 # See: https://nikitabobko.github.io/AeroSpace/commands#move-node-to-workspace
 alt-shift-1 = 'move-node-to-workspace 1' # Office
 alt-shift-2 = 'move-node-to-workspace 2' # VSCode
+alt-shift-3 = 'move-node-to-workspace 3' # Extra
 alt-shift-7 = 'move-node-to-workspace 7' # Notes
 alt-shift-8 = 'move-node-to-workspace 8' # Arc
 alt-shift-9 = 'move-node-to-workspace 9' # Browser
