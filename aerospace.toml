@@ -43,6 +43,7 @@ key-mapping.preset = 'qwerty'
 # See https://nikitabobko.github.io/AeroSpace/guide#on-focus-changed-callbacks
 # See https://nikitabobko.github.io/AeroSpace/commands#move-mouse
 on-focused-monitor-changed = ['move-mouse monitor-lazy-center']
+on-focus-changed = "move-mouse window-lazy-center"
 
 # Gaps between windows (inner-*) and between monitor edges (outer-*).
 # Possible values:
@@ -106,10 +107,13 @@ alt-shift-equal = 'resize smart +50'
 # See: https://nikitabobko.github.io/AeroSpace/commands#workspace
 alt-1 = 'workspace 1' # Office
 alt-2 = 'workspace 2' # VSCode
-alt-3 = 'workspace 3' # Extra
-alt-7 = 'workspace 7' # Notes
-alt-8 = 'workspace 8' # Arc
-alt-9 = 'workspace 9' # Browser
+alt-3 = 'workspace 3' # Extra 1
+alt-4 = 'workspace 4' # Extra 2
+alt-5 = 'workspace 5' # Extra 3
+alt-6 = 'workspace 6' # Extra 4
+alt-7 = 'workspace 7' # Obsidian
+alt-8 = 'workspace 8' # Arc Browser
+alt-9 = 'workspace 9' # Brave Browser
 alt-0 = 'workspace 0' # Terminal
 alt-a = 'workspace A'
 alt-b = 'workspace B'
@@ -120,10 +124,13 @@ alt-z = 'workspace Z'
 # See: https://nikitabobko.github.io/AeroSpace/commands#move-node-to-workspace
 alt-shift-1 = 'move-node-to-workspace 1' # Office
 alt-shift-2 = 'move-node-to-workspace 2' # VSCode
-alt-shift-3 = 'move-node-to-workspace 3' # Extra
-alt-shift-7 = 'move-node-to-workspace 7' # Notes
-alt-shift-8 = 'move-node-to-workspace 8' # Arc
-alt-shift-9 = 'move-node-to-workspace 9' # Browser
+alt-shift-3 = 'move-node-to-workspace 3' # Extra 1
+alt-shift-4 = 'move-node-to-workspace 4' # Extra 2
+alt-shift-5 = 'move-node-to-workspace 5' # Extra 3
+alt-shift-6 = 'move-node-to-workspace 6' # Extra 4
+alt-shift-7 = 'move-node-to-workspace 7' # Obsidian
+alt-shift-8 = 'move-node-to-workspace 8' # Arc Browser
+alt-shift-9 = 'move-node-to-workspace 9' # Brave Browser
 alt-shift-0 = 'move-node-to-workspace 0' # Terminal
 alt-shift-a = 'move-node-to-workspace A'
 alt-shift-b = 'move-node-to-workspace B'
