@@ -170,6 +170,10 @@ alt-shift-k = ['join-with up', 'mode main']
 alt-shift-l = ['join-with right', 'mode main']
 
 [[on-window-detected]]
+if.app-id = "dev.warp.Warp-Stable"
+run = "move-node-to-workspace 0"
+
+[[on-window-detected]]
 if.app-id = "com.github.wez.wezterm"
 run = "move-node-to-workspace 0"
 
@@ -196,6 +200,10 @@ run = "move-node-to-workspace 7"
 [[on-window-detected]]
 if.app-id = "company.thebrowser.Browser"
 run = "move-node-to-workspace 8"
+
+[[on-window-detected]]
+if.app-id = "com.brave.Browser"
+run = "move-node-to-workspace 9"
 
 [[on-window-detected]]
 if.app-id = "com.brave.Browser"
