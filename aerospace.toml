@@ -106,7 +106,7 @@ alt-shift-equal = 'resize smart +50'
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#workspace
 alt-1 = 'workspace 1' # Office
-alt-2 = 'workspace 2' # VSCode
+alt-2 = 'workspace 2' # VSCode # WebStorm
 alt-3 = 'workspace 3' # Extra 1
 alt-4 = 'workspace 4' # Extra 2
 alt-5 = 'workspace 5' # Extra 3
@@ -127,7 +127,7 @@ alt-s = 'workspace S'
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#move-node-to-workspace
 alt-shift-1 = 'move-node-to-workspace 1' # Office
-alt-shift-2 = 'move-node-to-workspace 2' # VSCode
+alt-shift-2 = 'move-node-to-workspace 2' # VSCode # WebStorm
 alt-shift-3 = 'move-node-to-workspace 3' # Extra 1
 alt-shift-4 = 'move-node-to-workspace 4' # Extra 2
 alt-shift-5 = 'move-node-to-workspace 5' # Extra 3
@@ -191,6 +191,10 @@ run = "move-node-to-workspace 1"
 
 [[on-window-detected]]
 if.app-id = "com.microsoft.VSCode"
+run = "move-node-to-workspace 2"
+
+[[on-window-detected]]
+if.app-id = "com.jetbrains.WebStorm"
 run = "move-node-to-workspace 2"
 
 [[on-window-detected]]
