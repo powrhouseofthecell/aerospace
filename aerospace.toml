@@ -197,7 +197,7 @@ run = "move-node-to-workspace 0"
 
 [[on-window-detected]]
 run = "move-node-to-workspace Q"
-if.app-id = "com.google.Chrome"
+if.app-id = "company.thebrowser.Browser"
 
 [[on-window-detected]]
 if.app-id = "com.tinyspeck.slackmacgap"
