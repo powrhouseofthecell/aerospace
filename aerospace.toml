@@ -196,6 +196,10 @@ if.app-id = "com.github.wez.wezterm"
 run = "move-node-to-workspace 0"
 
 [[on-window-detected]]
+if.app-id = "com.googlecode.iterm2"
+run = "move-node-to-workspace 0"
+
+[[on-window-detected]]
 run = "move-node-to-workspace Q"
 if.app-id = "company.thebrowser.Browser"
 
