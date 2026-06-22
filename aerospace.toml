@@ -115,7 +115,7 @@ alt-7 = 'workspace 7' # Extra 7
 alt-8 = 'workspace 8' # Obsidian
 alt-9 = 'workspace 9' # Brave Browser
 alt-0 = 'workspace 0' # Terminal
-alt-p = 'workspace P' # Postman
+alt-p = 'workspace P' # Postman / Bruno
 alt-o = 'workspace O' # Docker
 alt-i = 'workspace I' # Antigravity Cursor VSCode
 alt-u = 'workspace U' # Compass
@@ -176,7 +176,7 @@ alt-shift-l = ['join-with right', 'mode main']
 
 
 [[on-window-detected]]
-if.app-id = "com.google.antigravity"
+if.app-id = "com.google.antigravity-ide"
 run = "move-node-to-workspace I"
 
 [[on-window-detected]]
@@ -229,6 +229,10 @@ run = "move-node-to-workspace U"
 
 [[on-window-detected]]
 if.app-id = "com.postmanlabs.mac"
+run = "move-node-to-workspace P"
+
+[[on-window-detected]]
+if.app-id = "com.usebruno.app"
 run = "move-node-to-workspace P"
 
 [[on-window-detected]]
